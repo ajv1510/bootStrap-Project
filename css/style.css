@@ -1,0 +1,269 @@
+/* =======Navbar Styling Begins======= */
+
+.navbar-brand {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 35px;
+    color: #fff;
+    
+}
+
+.navbar-brand:hover {
+    color: #8a2be2;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: #8a2be2;
+}
+
+.searchbtn {
+    width: 120px;
+    border: none;
+    color: white;
+    background-color: #808080a9;
+}
+
+.searchbtn:hover {
+    background-color: #8a2be2;
+    transition: 0.5s ease-in-out;
+}
+
+/* =======Navbar Styling Ends======= */
+
+
+
+
+/* =======Banner Styling Starts======= */
+
+
+.bannerdesc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.bannerdesc::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/wrench.svg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    pointer-events: none;
+    opacity: 0.1; /* Adjust the opacity as needed */
+}
+
+
+.bannerimg {
+    display: flex;
+    justify-content: end;
+}
+
+.bannerbtn {
+    width: 150px;
+    background-color: #808080a9; 
+    color: white; 
+    border: none; 
+    padding: 10px 10px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 4px;
+}
+.bannerbtn:hover {
+    background-color: #8a2be2;
+    transition: 0.5s ease-in-out;
+}
+
+/* =======Banner Styling Ends======= */
+
+
+/* Sign Up Styling Starts Here */
+
+.sect {
+    background-color: #8a2be2;
+}
+
+#button-addon2 {
+    color: #fff;
+    border: 2px solid black;
+}
+
+#button-addon2:hover {
+    background-color: black;
+}
+
+/* Sign Up Styling Ends Here */
+
+
+
+#btncard2 {
+    background-color: black;
+    color: #fff;
+}
+
+
+
+/* Services Styling Starts Here */
+
+.introhead {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.introhead h3 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+.introhead span {
+    color: #8a2be2;
+}
+
+
+.introbody {
+    width: 100%;
+    height: 250px;
+    display: flex;
+
+}
+.introbody p {
+    font-size: 1.25rem;
+    padding-left: 1rem;
+}
+
+#service1 span {
+    color: #8a2be2;
+}
+
+#service2 span {
+    color: #8a2be2;
+}
+
+#service3 span {
+    color: #8a2be2;
+}
+.service1 {
+    width: 150px;
+    background-color: #808080a9; 
+    color: white; 
+    border: none; 
+    padding: 10px 10px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 4px;
+}
+.service1:hover {
+    background-color: #8a2be2;
+    transition: 0.5s ease-in-out;
+}
+
+.service2 {
+    width: 150px;
+    background-color: #808080a9; 
+    color: white; 
+    border: none; 
+    padding: 10px 10px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 4px;
+}
+.service2:hover {
+    background-color: black;
+    transition: 0.5s ease-in-out;
+}
+
+/* Services Styling Ends Here */
+
+
+
+
+
+
+/* Responsiveness Starts Here */
+.bannerdesc h2 {
+    @media (max-width: 320px) {
+        font-size: 1.1rem;
+    }
+
+    @media (min-width: 321px) and (max-width: 480px) {
+        font-size: 1.3rem;
+    }
+}
+.bannerdesc h5 {
+    @media (max-width: 320px) {
+        font-size: 1.0rem;
+    }
+}
+
+
+
+.introhead h3 {
+    @media (max-width: 320px) {
+        font-size: 1.4rem;
+    }
+    @media (min-width: 321px) and (max-width: 480px) {
+        font-size: 1.3rem;
+    }
+}
+.introbody p {
+    @media (max-width: 320px) {
+        font-size: 0.88rem;
+    }
+    @media (min-width: 321px) and (max-width: 480px) {
+        font-size: 0.9rem;
+    }
+}
+
+
+.serviceimg1 img {
+    @media (min-width: 1024px) {
+        width: 400px;
+    }
+}
+
+.service3img img {
+    @media (min-width: 1024px) {
+        width: 400px;
+    }
+}
+
+.socials {
+    @media (max-width: 320px) {
+        margin-left: 35px;
+    }
+}
+
+
+/* Responsiveness Ends Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
