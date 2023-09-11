@@ -1,3 +1,6 @@
+@charset "UTF-8";
+
+
 /* =======Navbar Styling Begins======= */
 
 .navbar-brand {
@@ -16,6 +19,11 @@
 }
 .navbar-nav .nav-item .nav-link:hover {
     color: #8a2be2;
+}
+
+.dropdown_list {
+    background-color: #8a2be2;
+    transition: 0.5s ease-in-out;
 }
 
 .searchbtn {

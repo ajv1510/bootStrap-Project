@@ -16,7 +16,7 @@
 
 
     <!-- CSS File -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>zeronet - Home</title>
 </head> 
 <body>
@@ -45,7 +45,17 @@
               <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item text-uppercase">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item text-uppercase dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown_list dropdown-menu">
+                <li><a class="dropdown-item" href="#templates">Templates</a></li>
+                <li><a class="dropdown-item" href="#courses">Courses</a></li>
+                <li><a class="dropdown-item" href="#codereview">Review your Code</a></li>
+              </ul>
             </li>
             <li class="nav-item me-4 text-uppercase">
               <a class="nav-link" href="#">Enquiries</a>
@@ -102,7 +112,7 @@
   <!-- ==========================Intro Starts Here============================== -->
   
 
-  <section>
+  <section id="about">
     <div class="introhead">
       <h3>Introducing <span>ZeroNet</span>: Your Coding Companion</h3>
     </div>
@@ -123,7 +133,7 @@
   <!--=========================Services Offered Starts Here=========================-->
 
 
-  <section>
+  <section id="templates">
     <div class="container-fluid bg-dark" style="color: white;">
       <div class="row">
         <div class="col-lg-7">
@@ -155,7 +165,7 @@
 
 
 
-  <section>
+  <section id="courses">
     <div class="container-fluid" >
       <div class="row">
         <div class="col-lg-5 d-none d-lg-block">
@@ -185,7 +195,7 @@
 
 
 
-  <section>
+  <section id="codereview">
     <div class="container-fluid bg-dark" style="color: white;">
       <div class="row">
         <div class="col-lg-7">
@@ -239,7 +249,7 @@
         <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
           <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
         </a>
-        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2023 ZeroNet Inc. </span>
       </div>
   
       <ul class="socials nav col-md-4 justify-content-end list-unstyled d-flex">
